@@ -1,0 +1,311 @@
+/*.header-content{
+  background-color: rgba(255,255,255,0.5);
+  padding: 7em;
+  text-align: center;
+  font-family: 'Bebas Kai';
+}
+
+#comp h1{
+  font-size: 3em;
+  padding: 1em;
+  font-family: 'Bebas Kai';
+  background-color: rgba(255, 195, 195, 0.5);
+}
+
+.comp-section-content{
+  display: flex;
+
+}
+
+.comp-content h2 {
+  font-size: 2em;
+  font-family:'Bebas Kai';
+  margin: auto;
+  text-align: center;
+}
+
+/*.header-content h1 {
+  font-size: 2em;
+  background-color: transparent;
+  margin-bottom: 0.0000005px;
+}
+/*
+
+/* citation
+h1{
+  font-family: : 'basic title font';
+  background-color: : rgba(255, 195, 195, 0.5);
+  padding: 1em;
+  max-width: 320px;
+  margin: 0 auto 42px auto;
+  text-align: center;
+  justify-content: center;
+}*/
+
+body{
+font-family: 'basic title font';
+color: rgb(255, 255, 255);
+font-size: 1em;
+text-align: center;
+background-color: rgb(0,0,0);
+}
+
+header{
+ background-image:url('../images/photocouv.jpg');
+ min-height: 40vh;
+ background-repeat: no-repeat;
+ background-position: top center;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-attachment: fixed;
+ }
+
+/*bloc transparents*/
+.header-content-block{
+background-color: rgba(0,0,0,0.5);
+padding: 2em;
+text-align: center;
+font-size: 20px;
+}
+
+/* titre*/
+.header-content-block h1{
+font-family:  'Bebas Kai';
+padding: 1em;
+max-width: 320px;
+margin: 0 auto 42px auto;
+color: rgb(255, 255, 255);
+font-size: 3em;
+text-align: center;
+justify-content: center;
+}
+
+.char1{
+  font-size: 2em;
+  color : yellow;
+  font-family:'riesling';
+}
+
+.char2{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char3{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char4{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char5{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char6{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char7{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char8{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char9{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char10{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char11{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char12{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+.char13{
+  font-size: 2em;
+  color :yellow;
+  font-family: 'riesling';
+}
+.char14{
+  font-size: 2em;
+  color : yellow;
+  font-family: 'riesling';
+}
+
+
+/* citation*/
+.header-content-block p{
+  font-family: 'basic title font';
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  }
+
+.bio-content-block h1{
+  font-family: 'Bebas Kai';
+  text-align: center;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  padding: 2em;
+}
+.bio-content-block p{
+  font-family: 'basic title font';
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  margin: 2em;
+}
+
+/*grand titre compétences*/
+#comp h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Bebas Kai';
+font-size: 3em;
+padding: 2em;
+}
+
+/* bloc blanc*/
+.comp-content {
+  margin: 20px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 2em;
+  justify-content: space-around;
+}
+
+img {
+  width:80%;
+}
+
+/*nom compétence*/
+.comp-content h2{
+  text-align: center;
+  font-family: 'Bebas Kai';
+  color: rgb(0, 0, 0);
+}
+
+/* paragraphe*/
+.comp-content p{
+  text-align: center;
+  font-family: 'basic title font';
+  color: rgb(0, 0, 0);
+}
+
+
+
+.comp-section-content {
+  display:flex;
+  justify-content: space-around;
+}
+
+.comp-content {
+  width: 100%;
+}
+
+/*read more*/
+.comp-content a {
+  display: block;
+  padding: 1em;
+
+}
+
+
+
+#portfolio {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 9em;
+  min-height: 90vh;
+}
+
+#portfolio h1 {
+  font-size: 3em;
+  padding: : 1em;
+  font-family: 'Bebas Kai';
+  color: rgb(255, 255, 255);
+}
+
+.portfolio-content-item a {
+  font-size: 1em;
+  font-family:'basic title font';
+  color: rgb(255, 255, 255);
+}
+
+.portfolio p {
+  margin: 13px auto 42px auto;
+}
+
+.portfolio-content{
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+footer{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 9em;
+  font-family: 'Bebas Kai';
+}
+
+.adress {
+  font-size: 1em;
+  font-family:'Bebas Kai';
+}
+
+.social-links {
+  text-align: left;
+  font-family:'Bebas Kai';
+  color: rgb(255, 255, 255);
+}
+
+.social-links l1 {
+  display: flex;
+  align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.social-links img{
+  max-width: 60px;
+}
+
+
+
+
+#portfolio {
+  background-color: rgba(102, 102, 102, 0,5);
+  color:rgb(0, 0, 0);
+}
+  .portfolio-content-bloc{
+      display: flex;
+      margin: 20px;
+      width: auto;
+      background-color: rgba(102,102,102,0.5);
+
+    }
+
+    .adress span{
+      display: block;
+    }

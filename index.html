@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title> This the web site</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/colorbox.css">
+
+
+<script src="script/jquery-3.3.1.min.js"></script>
+<script src="script/jquery.lettering.js"></script>
+<script src="script/jquery.colorbox-min.js"></script>
+
+</head>
+  <body>
+
+
+    <header>
+      <div class = "header-content-block">
+      <h1 class="fancy_title">Amandine Demey </h1>
+
+        <p> Chaque jour est une nouvelle experience</p>
+        <p>  Et chaque experience doit faire esperer un nouveau jour.</p>
+
+      </div>
+    </header>
+
+
+    <section id="bio">
+          <div class = "bio-content-block">
+              <h1> Biographie </h1>
+              <p>
+              Je suis nee le 12 Decembre 1994 a Cenon. J'ai vecu toute ma vie a Bordeaux.
+              </p>
+              <p> Apres un bac Litteraire option droit et latin, j'ai obtenu mon bts en comunication, une manaa, et deux annee de design communication visuelle a l'ECV Bordeaux.  </p>
+              <p> Par la suite, j'aimerais integree une ecole de production ausiovisuelle pour realiser un master specialise dans la televison et les nouveaux medias. </p>
+              <p> J'adore voyager, j'ai la chance d'avoir pu concilier ma vie d'etudiante et ma passion. J'ai eut de belles opportunites et  grace a ca j'ai pu visiter pas mal de pays et a chaque fois c'etait une belle lecon de vie que j'apprennais aux contacts des habitants. </p>
+              <p> J'ai egalement deux autres passion:  les chaussures et la nourriture. Je suis une vrai gourmande et j'adore decouvrir de nouvelles saveurs ! Pratique quand on aime voyager. </p>
+
+            </div>
+          </section>
+
+
+
+
+          <section id="comp">
+
+            <h1>Mes Competences</h1>
+
+        <div class="comp-section-content">
+
+            <div class="comp-content">
+           <a class='gallery-comp' href='images/photo.jpg'>
+          <img src="images/photo.jpg" alt="Photographie">
+        </a>
+            <h2> Photographie </h2>
+              <p>J'ai decouvert la photographie en deuxieme annee de design, mon portfolio s'intitule "les differentes parties du corps en macro". C'etait interessant de decouvrir comment le corp pouvait reveler des ombres et lumieres differentes jusqu'a devenir quelque chose de nouveau.</p>
+        </div>
+
+
+            <div class="comp-content">
+              <a class='gallery-comp' href='images/photo2.jpg'>
+                <img src="images/photo2.jpg" alt="Illu">
+              </a>
+
+              <h2> Illustration </h2>
+              <p>L'illustration permet de s'exprimer à l'aide de differentes techniques apprise, il y a generalement peu de contraintes et c'est ce qui rend nos realisations diverses et interessantes. Seule l'imagination compte ici. </p>
+
+
+
+            <div class="comp-content">
+              <a class='gallery-comp' href='images/dessin.jpg'>
+                <img src="images/dessin.jpg" alt="non finito">
+              </a>
+
+              <h2> Dessin </h2>
+              <p> J'ai appris le dessin en Manaa, avec differentes techniques.
+              Un peu difficile au depart, j'ai reussi a trouve une technique qui me ressemblais et je me suis rapidement epanouis dans le fusain. </p>
+
+      </div>
+    </section>
+
+
+
+
+
+           <section id="portfolio">
+
+             <h1>Mon Portfolio</h1>
+             <div class="portfolio-content">
+                 <div class="portfolio-content-item">
+                   <img src="images/bateau.jpg" alt="carcasse de bateau">
+                   <h2><a href="#"> Carcasse de bateau</a></h2>
+                 </div>
+
+                 <div class="portfolio-content-item">
+                   <img src="images/dessin3.jpg" alt="différentes vue du parfum l'overdose">
+                   <h2><a href="#">Parfum l'Overdose de Diesel</a></h2>
+                 </div>
+
+                 <div class="portfolio-content-item">
+                <img src="images/chat.jpg" alt="illustration de chat par illustrator">
+                   <h2><a href="#">Le chat dans tous ses etats !</a></h2>
+                 </div>
+
+                 <div class="portfolio-content-item">
+                   <img src="images/illu1.jpg" alt="illustration de loutres">
+                   <h2><a href="#"> Ambiance Chromatique </a></h2>
+                 </div>
+
+                 <div class="portfolio-content-item">
+                  <img src="images/5.jpg" alt="photo d'un dos en macro">
+                   <h2><a href="#">Shooting</a></h2>
+                 </div>
+
+
+                 </div>
+             </div>
+           </section>
+
+
+
+
+           <footer>
+             <div class="adress">
+               <span>Hameau de Canteloup</span>
+              <span>  10 allée Françoise Giroud </span>
+              <span>  lot 5</span>
+               <span>Lormont</span>
+               <span>33310</span>
+               <span>France</span>
+             </div>
+
+             <div class="social-links">
+               <ul>
+                 <li>Linkedin</li>
+                 <li>Mysite</li>
+                 <li><a href="https://fr-fr.facebook.com/public/Amandine-Demey">Facebook</a></li
+               </ul>
+
+             </div>
+
+           </footer>
+           <script>
+           $(document).ready(function() {
+             $(".fancy_title").lettering();
+           });
+         </script>
+
+         <script>
+            jQuery(document).ready(function () {
+            jQuery('a.gallery-comp').colorbox({ opacity:0.5 , rel:'comp' });
+             });
+                         </script>
+
+     </body>
+   </html>
